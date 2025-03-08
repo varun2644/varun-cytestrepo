@@ -1,0 +1,24 @@
+{
+  "name": "varun-cytestrepo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/varun2644/varun-cytestrepo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/varun2644/varun-cytestrepo/issues"
+  },
+  "homepage": "https://github.com/varun2644/varun-cytestrepo#readme",
+  "devDependencies": {
+    "cypress": "^14.1.0"
+  }
+}
