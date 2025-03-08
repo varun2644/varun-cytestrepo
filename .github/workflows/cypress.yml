@@ -3,11 +3,11 @@ name: Cypress Tests
 on:
   push:
     branches:
-      - main
+      - newbranch1
       
   pull_request:
     branches:
-      - main 
+      - newbranch1
 
 
 jobs:
