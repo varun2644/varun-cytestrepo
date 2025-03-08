@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/varun2644/varun-cytestrepo#readme",
   "devDependencies": {
-    "cypress": "^14.1.0"
+    "cypress": "^14.1.0",
+    "cypress-file-upload": "^5.0.8"
   }
 }
