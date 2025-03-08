@@ -2,10 +2,10 @@ describe('upload file', function (){
 //ADDING OF UPLOAD FILE TO MAINBRANCH
     it('Upload file', function (){
 
-        const filepath='pic1.png';
+        //const filepath='pic1.png';
         cy.visit("https://the-internet.herokuapp.com/upload");
         cy.wait(2000)
-        cy.get('#file-upload').attachFile(filepath);
+        cy.get('#file-upload').attachFile('pic1.png');
         cy.wait(2000)
         cy.get('#file-submit').click();
         cy.wait(2000)
